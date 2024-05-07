@@ -5,7 +5,8 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 set(msg_files
-  "msg/PublishedTime.msg")
+  "msg/PublishedTime.msg"
+  "msg/MissionRemainingDistanceTime.msg")
 
 set(msg_dependencies
   builtin_interfaces
