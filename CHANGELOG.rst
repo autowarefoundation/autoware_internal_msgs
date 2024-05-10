@@ -2,8 +2,8 @@
 Changelog for package autoware_internal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.1 (2024-05-10)
+------------------
 * add maintainer (`#11 <https://github.com/youtalk/autoware_internal_msgs/issues/11>`_)
 * feat(remaining_dist_eta): add msg definition for mission remaining distance and time (`#10 <https://github.com/youtalk/autoware_internal_msgs/issues/10>`_)
   * feat(remaining_dist_eta): add msg definition for mission remaining distance and time
