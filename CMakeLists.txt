@@ -16,6 +16,7 @@ set(msg_dependencies
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   DEPENDENCIES ${msg_dependencies}
+  ADD_LINTER_TESTS
 )
 
 ament_auto_package()
