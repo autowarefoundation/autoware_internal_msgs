@@ -6,7 +6,9 @@ ament_auto_find_build_dependencies()
 
 set(msg_files
   "msg/PublishedTime.msg"
-  "msg/MissionRemainingDistanceTime.msg")
+  "msg/MissionRemainingDistanceTime.msg"
+  "msg/ResourceUsageReport.msg"
+)
 
 set(msg_dependencies
   builtin_interfaces
