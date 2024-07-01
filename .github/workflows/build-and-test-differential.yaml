@@ -85,3 +85,4 @@ jobs:
           target-packages: ${{ steps.get-modified-packages.outputs.modified-packages }}
           target-files: ${{ steps.get-modified-files.outputs.all_changed_files }}
           clang-tidy-config-url: https://raw.githubusercontent.com/autowarefoundation/autoware/main/.clang-tidy
+          token: ${{ secrets.CODECOV_TOKEN }}
