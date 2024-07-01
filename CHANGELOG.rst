@@ -2,6 +2,55 @@
 Changelog for package autoware_internal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.0 (2024-07-01)
+------------------
+* feat(ResourceUsageReport): update fields (`#18 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/18>`_)
+* feat(system): create system usage message (`#12 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/12>`_)
+* build(deps): Bump actions/checkout from 3 to 4 (`#15 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/15>`_)
+  Bumps [actions/checkout](https://github.com/actions/checkout) from 3 to 4.
+  - [Release notes](https://github.com/actions/checkout/releases)
+  - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+  - [Commits](https://github.com/actions/checkout/compare/v3...v4)
+  ---
+  updated-dependencies:
+  - dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  ...
+  Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+* build(deps): Bump tj-actions/changed-files from 42 to 44 (`#13 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/13>`_)
+  Bumps [tj-actions/changed-files](https://github.com/tj-actions/changed-files) from 42 to 44.
+  - [Release notes](https://github.com/tj-actions/changed-files/releases)
+  - [Changelog](https://github.com/tj-actions/changed-files/blob/main/HISTORY.md)
+  - [Commits](https://github.com/tj-actions/changed-files/compare/v42...v44)
+  ---
+  updated-dependencies:
+  - dependency-name: tj-actions/changed-files
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  ...
+  Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+* build(deps): Bump codecov/codecov-action from 3 to 4 (`#5 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/5>`_)
+  Bumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 3 to 4.
+  - [Release notes](https://github.com/codecov/codecov-action/releases)
+  - [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)
+  - [Commits](https://github.com/codecov/codecov-action/compare/v3...v4)
+  ---
+  updated-dependencies:
+  - dependency-name: codecov/codecov-action
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  ...
+  Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+* [pre-commit.ci] pre-commit autoupdate (`#8 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/8>`_)
+  updates:
+  - [github.com/igorshubovych/markdownlint-cli: v0.39.0 → v0.41.0](https://github.com/igorshubovych/markdownlint-cli/compare/v0.39.0...v0.41.0)
+  - [github.com/AleksaC/hadolint-py: v2.12.1-beta → v2.12.1b3](https://github.com/AleksaC/hadolint-py/compare/v2.12.1-beta...v2.12.1b3)
+  Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+* chore: sync files (`#9 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/9>`_)
+  Co-authored-by: github-actions <github-actions@github.com>
+* Contributors: M. Fatih Cırıt, Mehmet Emin BAŞOĞLU, awf-autoware-bot[bot], dependabot[bot], pre-commit-ci[bot]
+
 1.0.1 (2024-05-10)
 ------------------
 * add maintainer (`#11 <https://github.com/youtalk/autoware_internal_msgs/issues/11>`_)
