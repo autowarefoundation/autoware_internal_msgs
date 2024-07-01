@@ -51,6 +51,7 @@ jobs:
           fail_ci_if_error: false
           verbose: true
           flags: differential
+          token: ${{ secrets.CODECOV_TOKEN }}
 
   clang-tidy-differential:
     runs-on: ubuntu-latest
@@ -85,4 +86,3 @@ jobs:
           target-packages: ${{ steps.get-modified-packages.outputs.modified-packages }}
           target-files: ${{ steps.get-modified-files.outputs.all_changed_files }}
           clang-tidy-config-url: https://raw.githubusercontent.com/autowarefoundation/autoware/main/.clang-tidy
-          token: ${{ secrets.CODECOV_TOKEN }}
