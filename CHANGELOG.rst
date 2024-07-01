@@ -2,8 +2,8 @@
 Changelog for package autoware_internal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2024-07-01)
+------------------
 * feat(ResourceUsageReport): update fields (`#18 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/18>`_)
 * feat(system): create system usage message (`#12 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/12>`_)
 * build(deps): Bump actions/checkout from 3 to 4 (`#15 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/15>`_)
