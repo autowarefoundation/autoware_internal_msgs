@@ -8,11 +8,14 @@ set(msg_files
   "msg/PublishedTime.msg"
   "msg/MissionRemainingDistanceTime.msg"
   "msg/ResourceUsageReport.msg"
+  "msg/Segmentation.msg"
+  "msg/SegmentationConfig.msg"
 )
 
 set(msg_dependencies
   builtin_interfaces
   std_msgs
+  sensor_msgs
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
