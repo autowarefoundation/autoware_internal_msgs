@@ -8,7 +8,7 @@ set(msg_files
   "msg/PublishedTime.msg"
   "msg/MissionRemainingDistanceTime.msg"
   "msg/ResourceUsageReport.msg"
-  "msg/Segmentation.msg"
+  "msg/SegmentationMask.msg"
   "msg/SegmentationConfig.msg"
 )
 
