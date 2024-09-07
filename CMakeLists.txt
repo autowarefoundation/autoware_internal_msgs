@@ -16,6 +16,7 @@ set(msg_dependencies
   builtin_interfaces
   std_msgs
   sensor_msgs
+  autoware_perception_msgs
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
