@@ -9,7 +9,6 @@ set(msg_files
   "msg/MissionRemainingDistanceTime.msg"
   "msg/ResourceUsageReport.msg"
   "msg/SegmentationMask.msg"
-  "msg/SegmentationConfig.msg"
 )
 
 set(msg_dependencies
