@@ -2,6 +2,11 @@
 Changelog for package autoware_internal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* feat: move the package to its own folder (`#28 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/28>`_)
+* Contributors: M. Fatih Cırıt
+
 1.1.0 (2024-07-01)
 ------------------
 * feat(ResourceUsageReport): update fields (`#18 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/18>`_)
