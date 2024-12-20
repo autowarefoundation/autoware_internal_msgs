@@ -15,6 +15,8 @@ set(msg_files
   "msg/Int64Stamped.msg"
   "msg/Int64MultiArrayStamped.msg"
   "msg/StringStamped.msg"
+  "msg/MultiArrayLayout.msg"
+  "msg/MultiArrayDimension.msg"
 )
 
 set(msg_dependencies
