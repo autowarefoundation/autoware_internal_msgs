@@ -17,6 +17,10 @@ set(msg_files
   "msg/StringStamped.msg"
 )
 
+set(srv_files
+  "srv/String.srv"
+)
+
 set(msg_dependencies
   builtin_interfaces
   std_msgs
@@ -24,6 +28,7 @@ set(msg_dependencies
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
+  ${srv_files}
   DEPENDENCIES ${msg_dependencies}
   ADD_LINTER_TESTS
 )
