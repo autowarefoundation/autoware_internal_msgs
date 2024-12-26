@@ -2,6 +2,16 @@
 Changelog for package autoware_internal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* chore: sync files (`#25 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/25>`_)
+  * chore: sync files
+  * style(pre-commit): autofix
+  ---------
+  Co-authored-by: github-actions <github-actions@github.com>
+  Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+* Contributors: awf-autoware-bot[bot]
+
 1.2.0 (2024-12-19)
 ------------------
 * feat: move the package to its own folder (`#28 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/28>`_)
