@@ -15,6 +15,8 @@ set(msg_files
   "msg/Int64Stamped.msg"
   "msg/Int64MultiArrayStamped.msg"
   "msg/StringStamped.msg"
+  "msg/ProcessingTimeNode.msg"
+  "msg/ProcessingTimeTree.msg"
 )
 
 set(srv_files
