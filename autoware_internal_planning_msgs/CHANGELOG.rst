@@ -2,8 +2,8 @@
 Changelog for package autoware_internal_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.4.0 (2025-01-15)
+------------------
 * feat(autoware_internal_planning_msgs): add Scenario.msg (`#43 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/43>`_)
   Co-authored-by: Yutaka Kondo <yutaka.kondo@youtalk.jp>
 * feat(autoware_internal_planning_msgs): add PathWithLaneId.msg (`#42 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/42>`_)
