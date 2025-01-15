@@ -2,6 +2,9 @@
 Changelog for package autoware_internal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.3.0 (2024-12-26)
 ------------------
 * chore: sync files (`#25 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/25>`_)

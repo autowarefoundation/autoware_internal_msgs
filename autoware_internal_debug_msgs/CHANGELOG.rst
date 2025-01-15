@@ -2,6 +2,11 @@
 Changelog for package autoware_internal_debug_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* feat(autoware_internal_debug_msgs): add ProcessingTime msgs (`#41 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/41>`_)
+* Contributors: cyn-liu
+
 1.3.0 (2024-12-26)
 ------------------
 * feat: add String.srv (`#37 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/37>`_)
