@@ -15,6 +15,9 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/PathPoint.msg"
+  "msg/PathPointWithLaneId.msg"
+  "msg/PathWithLaneId.msg"
   "msg/Scenario.msg"
   DEPENDENCIES
     builtin_interfaces
