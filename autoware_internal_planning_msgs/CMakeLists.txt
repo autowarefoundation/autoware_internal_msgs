@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PathPoint.msg"
   "msg/PathPointWithLaneId.msg"
   "msg/PathWithLaneId.msg"
+  "msg/Scenario.msg"
   DEPENDENCIES
     builtin_interfaces
     geometry_msgs
