@@ -14,9 +14,15 @@ set(msg_files
   "msg/Int32MultiArrayStamped.msg"
   "msg/Int64Stamped.msg"
   "msg/Int64MultiArrayStamped.msg"
-  "msg/StringStamped.msg"
   "msg/MultiArrayLayout.msg"
   "msg/MultiArrayDimension.msg"
+  "msg/ProcessingTimeNode.msg"
+  "msg/ProcessingTimeTree.msg"
+  "msg/StringStamped.msg"
+)
+
+set(srv_files
+  "srv/String.srv"
 )
 
 set(msg_dependencies
@@ -26,6 +32,7 @@ set(msg_dependencies
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
+  ${srv_files}
   DEPENDENCIES ${msg_dependencies}
   ADD_LINTER_TESTS
 )
