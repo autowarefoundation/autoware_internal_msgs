@@ -19,10 +19,18 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PathPointWithLaneId.msg"
   "msg/PathWithLaneId.msg"
   "msg/Scenario.msg"
+  "msg/ControlPoint.msg"
+  "msg/SafetyFactor.msg"
+  "msg/SafetyFactorArray.msg"
+  "msg/PlanningFactor.msg"
+  "msg/PlanningFactorArray.msg"
   DEPENDENCIES
     builtin_interfaces
     geometry_msgs
     std_msgs
+    unique_identifier_msgs
+    autoware_perception_msgs
+    autoware_planning_msgs
 )
 
 if(BUILD_TESTING)

@@ -16,6 +16,9 @@
   <depend>builtin_interfaces</depend>
   <depend>geometry_msgs</depend>
   <depend>std_msgs</depend>
+  <depend>unique_identifier_msgs</depend>
+  <depend>autoware_perception_msgs</depend>
+  <depend>autoware_planning_msgs</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
