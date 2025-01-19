@@ -15,7 +15,6 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/PathPoint.msg"
   "msg/PathPointWithLaneId.msg"
   "msg/PathWithLaneId.msg"
   "msg/Scenario.msg"
@@ -23,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     builtin_interfaces
     geometry_msgs
     std_msgs
+    autoware_planning_msgs
 )
 
 if(BUILD_TESTING)
