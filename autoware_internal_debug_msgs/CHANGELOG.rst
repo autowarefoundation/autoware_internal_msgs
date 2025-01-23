@@ -2,6 +2,9 @@
 Changelog for package autoware_internal_debug_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.0 (2025-01-23)
+------------------
+
 1.4.0 (2025-01-15)
 ------------------
 * feat(autoware_internal_debug_msgs): add ProcessingTime msgs (`#41 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/41>`_)
