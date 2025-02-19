@@ -2,6 +2,11 @@
 Changelog for package autoware_internal_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* feat: port VelocityLimit messages from tier4_planning_msgs (`#49 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/49>`_)
+* Contributors: Ryohsuke Mitsudome
+
 1.5.0 (2025-01-23)
 ------------------
 * feat(autoware_internal_planning_msgs): adaption to autoware_motion_utils (`#45 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/45>`_)
