@@ -23,6 +23,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SafetyFactorArray.msg"
   "msg/PlanningFactor.msg"
   "msg/PlanningFactorArray.msg"
+  "msg/VelocityLimit.msg"
+  "msg/VelocityLimitConstraints.msg"
+  "msg/VelocityLimitClearCommand.msg"
   DEPENDENCIES
     builtin_interfaces
     geometry_msgs
