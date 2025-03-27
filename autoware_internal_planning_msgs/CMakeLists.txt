@@ -23,14 +23,19 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SafetyFactorArray.msg"
   "msg/PlanningFactor.msg"
   "msg/PlanningFactorArray.msg"
+  "msg/RouteState.msg"
   "msg/VelocityLimit.msg"
   "msg/VelocityLimitConstraints.msg"
   "msg/VelocityLimitClearCommand.msg"
+  "srv/ClearRoute.srv"
+  "srv/SetLaneletRoute.srv"
+  "srv/SetWaypointRoute.srv"
   DEPENDENCIES
     builtin_interfaces
     geometry_msgs
     std_msgs
     unique_identifier_msgs
+    autoware_common_msgs
     autoware_perception_msgs
     autoware_planning_msgs
 )
