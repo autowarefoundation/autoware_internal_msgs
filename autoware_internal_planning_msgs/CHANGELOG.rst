@@ -2,6 +2,9 @@
 Changelog for package autoware_internal_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.8.0 (2025-03-27)
 ------------------
 * feat(autoware_internal_planning_msgs): port routing services from tier4_planning_msgs (`#55 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/55>`_)
