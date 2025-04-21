@@ -1,14 +1,14 @@
-# tier4_rtc_msgs
+# autoware_internal_rtc_msgs
 
 ## Overview
 
-The `tier4_rtc_msgs` package includes message/service definition files for request to cooperate (RTC).
+The `autoware_internal_rtc_msgs` package includes message/service definition files for request to cooperate (RTC).
 
 ## Description
 
 ### Topic
 
-- `tier4_rtc_msgs/Command`
+- `autoware_internal_rtc_msgs/Command`
 
   - Members
     - `type` : Type of command
@@ -16,21 +16,21 @@ The `tier4_rtc_msgs` package includes message/service definition files for reque
     - `DEACTIVATE` : Deactivate command
     - `ACTIVATE` : Activate command
 
-- `tier4_rtc_msgs/CooperateCommand`
+- `autoware_internal_rtc_msgs/CooperateCommand`
 
   - Members
     - `uuid` : Index of requesting target
     - `module` : Module type of requesting target
     - `command` : Command
 
-- `tier4_rtc_msgs/CooperateResponse`
+- `autoware_internal_rtc_msgs/CooperateResponse`
 
   - Members
     - `uuid` : Index of requesting target
     - `module` : Module type of requesting target
     - `success` : Cooperate Command result
 
-- `tier4_rtc_msgs/Module`
+- `autoware_internal_rtc_msgs/Module`
 
   - Members
     - `type` : Type of module
@@ -50,7 +50,7 @@ The `tier4_rtc_msgs` package includes message/service definition files for reque
     - `NO_STOPPING_AREA`
     - `OCCLUSION_SPOT`
 
-- `tier4_rtc_msgs/CooperateStatus`
+- `autoware_internal_rtc_msgs/CooperateStatus`
 
   - Members
     - `stamp` : Time stamp
@@ -60,13 +60,13 @@ The `tier4_rtc_msgs` package includes message/service definition files for reque
     - `command_status` : Received command status
     - `distance` : Distance to requesting target
 
-- `tier4_rtc_msgs/CooperateStatusArray`
+- `autoware_internal_rtc_msgs/CooperateStatusArray`
   - Members
     - `statuses` : Array of cooperate status message
 
 ### Service
 
-- `tier4_rtc_msgs/CooperateCommands`
+- `autoware_internal_rtc_msgs/CooperateCommands`
   - Members (Request)
     - `stamp` : Time stamp
     - `commands` : Array of cooperate command

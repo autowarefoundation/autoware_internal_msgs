@@ -4,7 +4,7 @@ builtin_interfaces/Time stamp
 unique_identifier_msgs/UUID uuid
 
 # Indicate module type which makes this cooperate request.
-tier4_rtc_msgs/Module module
+autoware_internal_rtc_msgs/Module module
 
 # Indicate whether the system judges it's safe condition to execute or not.
 bool safe
@@ -13,10 +13,10 @@ bool safe
 bool requested false
 
 # Indicate RTC approval status
-tier4_rtc_msgs/Command command_status
+autoware_internal_rtc_msgs/Command command_status
 
 # Current execution state
-tier4_rtc_msgs/State state
+autoware_internal_rtc_msgs/State state
 
 # RTC execution mode
 # TRUE: Auto mode (it can execute without human operator's approval.)
