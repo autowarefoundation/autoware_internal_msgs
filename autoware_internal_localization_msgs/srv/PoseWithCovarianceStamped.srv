@@ -4,4 +4,4 @@ geometry_msgs/PoseWithCovarianceStamped pose_with_covariance
 bool success
 # reliable is used to check reliability of initial pose was good or bad.
 bool reliable
-geometry_msgs/PoseWithCovarianceStamped pose_with_covariance 
+geometry_msgs/PoseWithCovarianceStamped pose_with_covariance
