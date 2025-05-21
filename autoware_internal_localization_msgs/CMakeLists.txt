@@ -6,9 +6,11 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/PoseWithCovarianceStamped.srv"
+  "srv/InitializeLocalization.srv"
   DEPENDENCIES
     std_msgs
     geometry_msgs
+    autoware_common_msgs
 )
 
 if(BUILD_TESTING)
