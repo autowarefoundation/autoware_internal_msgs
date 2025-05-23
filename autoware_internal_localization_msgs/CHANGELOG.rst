@@ -2,8 +2,8 @@
 Changelog for package autoware_internal_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.9.0 (2025-05-23)
+------------------
 * feat(autoware_internal_localization_msgs): add service from tier4_localization_msgs (`#65 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/65>`_)
   * feat(autoware_internal_localization_msgs): add service from tier4_localization_msgs, autoware_internal_localization_msgs, initial commit: v0.0
   * style(pre-commit): autofix
