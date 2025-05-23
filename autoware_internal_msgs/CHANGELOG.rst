@@ -2,6 +2,9 @@
 Changelog for package autoware_internal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.0 (2025-05-23)
+------------------
+
 1.8.1 (2025-04-07)
 ------------------
 * feat(autoware_internal_msgs): make `autoware_internal_msgs` metapackage (`#57 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/57>`_)
