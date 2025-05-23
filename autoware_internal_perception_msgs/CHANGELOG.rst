@@ -2,6 +2,9 @@
 Changelog for package autoware_internal_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.8.1 (2025-04-07)
 ------------------
 
