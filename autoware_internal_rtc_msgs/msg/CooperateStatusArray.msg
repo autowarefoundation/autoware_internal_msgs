@@ -1,0 +1,2 @@
+builtin_interfaces/Time stamp
+autoware_internal_rtc_msgs/CooperateStatus[] statuses
