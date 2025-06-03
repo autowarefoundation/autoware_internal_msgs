@@ -17,6 +17,7 @@ set(msg_files
   "msg/StringStamped.msg"
   "msg/ProcessingTimeNode.msg"
   "msg/ProcessingTimeTree.msg"
+  "msg/ServiceLog.msg"
 )
 
 set(srv_files
