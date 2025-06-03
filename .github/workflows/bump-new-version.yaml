@@ -4,21 +4,21 @@ on:
   workflow_dispatch:
     inputs:
       source_branch:
-        description: 'Branch to merge from'
+        description: Branch to merge from
         required: true
-        default: 'main'
+        default: main
       target_branch:
-        description: 'Branch to merge into'
+        description: Branch to merge into
         required: true
-        default: 'humble'
+        default: humble
       bump_version:
-        description: 'Version bump type'
+        description: Version bump type
         required: true
-        default: 'patch'
+        default: patch
       repository_owner:
-        description: 'Repository owner (org or user)'
+        description: Repository owner (org or user)
         required: false
-        default: 'autowarefoundation'
+        default: autowarefoundation
 
 jobs:
   update-versions:
