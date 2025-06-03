@@ -10,7 +10,7 @@ on:
       target_branch:
         description: Branch to merge into
         required: true
-        default: 'main'
+        default: main
       bump_version:
         description: Version bump type
         required: true
