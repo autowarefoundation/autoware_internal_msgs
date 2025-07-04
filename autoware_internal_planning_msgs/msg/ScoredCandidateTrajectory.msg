@@ -1,4 +1,2 @@
-std_msgs/Header header
-unique_identifier_msgs/UUID generator_id
-autoware_planning_msgs/TrajectoryPoint[] points
+autoware_internal_planning_msgs/CandidateTrajectory candidate_trajectory
 float32 score # Score should be in [0.0, 1.0]
