@@ -15,6 +15,11 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/CandidateTrajectories.msg"
+  "msg/CandidateTrajectory.msg"
+  "msg/GeneratorInfo.msg"
+  "msg/ScoredCandidateTrajectories.msg"
+  "msg/ScoredCandidateTrajectory.msg"
   "msg/PathPointWithLaneId.msg"
   "msg/PathWithLaneId.msg"
   "msg/Scenario.msg"
