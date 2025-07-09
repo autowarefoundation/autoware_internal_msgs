@@ -1,0 +1,3 @@
+unique_identifier_msgs/UUID uuid
+autoware_internal_rtc_msgs/Module module
+bool success
