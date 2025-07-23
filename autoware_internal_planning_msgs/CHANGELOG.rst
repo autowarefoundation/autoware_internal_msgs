@@ -2,8 +2,8 @@
 Changelog for package autoware_internal_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.11.0 (2025-07-23)
+-------------------
 * feat(autoware_internal_planning_msgs): add new message definitions for new planning framework (`#73 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/73>`_)
   * feat(msgs): add new message definitions for CandidateTrajectories, CandidateTrajectory, GeneratorInfo, ScoredCandidateTrajectories, and ScoredCandidateTrajectory
   * fix(msgs): correct message type from TrajectoryGeneratorInfo to GeneratorInfo in CandidateTrajectories.msg
