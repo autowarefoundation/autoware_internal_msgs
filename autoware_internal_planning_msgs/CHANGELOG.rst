@@ -2,6 +2,11 @@
 Changelog for package autoware_internal_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.12.0 (2025-07-25)
+-------------------
+* chore(autoware_internal_planning_msgs): unifiy module load srv (`#76 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/76>`_)
+* Contributors: Yuki TAKAGI
+
 1.11.0 (2025-07-23)
 -------------------
 * feat(autoware_internal_planning_msgs): add new message definitions for new planning framework (`#73 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/73>`_)
