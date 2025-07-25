@@ -33,8 +33,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/VelocityLimitConstraints.msg"
   "msg/VelocityLimitClearCommand.msg"
   "srv/ClearRoute.srv"
+  "srv/LoadPlugin.srv"
   "srv/SetLaneletRoute.srv"
   "srv/SetWaypointRoute.srv"
+  "srv/UnloadPlugin.srv"
   DEPENDENCIES
     builtin_interfaces
     geometry_msgs
