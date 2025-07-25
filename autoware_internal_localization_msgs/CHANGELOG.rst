@@ -2,6 +2,9 @@
 Changelog for package autoware_internal_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.11.0 (2025-07-23)
 -------------------
 
