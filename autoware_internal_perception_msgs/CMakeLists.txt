@@ -6,6 +6,8 @@ ament_auto_find_build_dependencies()
 
 set(msg_files
   "msg/SegmentationMask.msg"
+  "msg/SceneInfo.msg"
+  "msg/CanBusData.msg"
 )
 
 set(msg_dependencies
