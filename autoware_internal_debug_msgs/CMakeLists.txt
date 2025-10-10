@@ -22,11 +22,14 @@ set(msg_files
 
 set(srv_files
   "srv/String.srv"
+  "srv/SplineDebug.srv"
 )
 
 set(msg_dependencies
   builtin_interfaces
   std_msgs
+  geometry_msgs
+  autoware_planning_msgs
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

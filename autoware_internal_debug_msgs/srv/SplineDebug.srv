@@ -1,0 +1,15 @@
+std_msgs/Float32MultiArray knots
+std_msgs/Float32MultiArray x_coeffs
+std_msgs/Float32MultiArray y_coeffs
+std_msgs/Float32MultiArray curvatures
+
+std_msgs/Float32MultiArray left_bounds
+std_msgs/Float32MultiArray right_bounds
+
+geometry_msgs/Point[] body_points
+geometry_msgs/Point[] body_points_curvilinear
+
+---
+
+std_msgs/Float32MultiArray optimised_steering
+autoware_planning_msgs/Trajectory optimised_trajectory
