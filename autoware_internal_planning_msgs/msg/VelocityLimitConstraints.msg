@@ -1,11 +1,11 @@
-# maximum signed acceleration
+# Maximum signed acceleration [m/s^2]
 float32 max_acceleration
 
-# minimum signed acceleration
+# Minimum signed acceleration [m/s^2]
 float32 min_acceleration
 
-# maximum signed jerk
+# Maximum signed jerk [m/s^3]
 float32 max_jerk
 
-# minimum signed jerk
+# Minimum signed jerk [m/s^3]
 float32 min_jerk
