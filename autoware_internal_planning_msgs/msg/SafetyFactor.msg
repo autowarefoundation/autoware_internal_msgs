@@ -14,9 +14,9 @@ unique_identifier_msgs/UUID object_id
 # use only for predicted objects
 autoware_perception_msgs/PredictedPath predicted_path
 
-# time to collision in relative to the header time
+# Time to collision (start) relative to the header time [s]
 float32 ttc_begin
-
+# Time to collision (end) relative to the header time [s]
 float32 ttc_end
 
 # type == POINTCLOUD: the position of the each points
