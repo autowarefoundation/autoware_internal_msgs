@@ -2,8 +2,8 @@
 Changelog for package autoware_internal_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.12.1 (2025-12-22)
+-------------------
 * docs: add documentation to remaining msg/srv fields (`#82 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/82>`_)
   * docs: add unit and range documentation to message fields
   Add inline comments to clarify units and valid ranges for:
