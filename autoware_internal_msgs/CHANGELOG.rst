@@ -2,6 +2,9 @@
 Changelog for package autoware_internal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.12.0 (2025-07-25)
 -------------------
 
