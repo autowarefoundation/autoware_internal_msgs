@@ -2,6 +2,35 @@
 Changelog for package autoware_internal_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.12.1 (2025-12-22)
+-------------------
+* docs: add documentation to remaining msg/srv fields (`#82 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/82>`_)
+  * docs: add unit and range documentation to message fields
+  Add inline comments to clarify units and valid ranges for:
+  - VelocityLimit.msg: max_velocity unit [m/s], sender constants
+  - VelocityLimitClearCommand.msg: sender field description
+  - ControlPoint.msg: velocity [m/s], shift_length [m], distance [m]
+  - SafetyFactor.msg: ttc_begin/ttc_end units [s]
+  Related to https://github.com/autowarefoundation/autoware_adapi_msgs/issues/106
+  * fix sender
+  * docs: add unit and range documentation to message definitions
+  * style(pre-commit): autofix
+  * remove node_modules
+  * Update autoware_internal_debug_msgs/msg/ProcessingTimeNode.msg
+  ---------
+  Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+* docs: add unit and range documentation to message fields (`#81 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/81>`_)
+  * docs: add unit and range documentation to message fields
+  Add inline comments to clarify units and valid ranges for:
+  - VelocityLimit.msg: max_velocity unit [m/s], sender constants
+  - VelocityLimitClearCommand.msg: sender field description
+  - ControlPoint.msg: velocity [m/s], shift_length [m], distance [m]
+  - SafetyFactor.msg: ttc_begin/ttc_end units [s]
+  Related to https://github.com/autowarefoundation/autoware_adapi_msgs/issues/106
+  * fix sender
+  ---------
+* Contributors: Yutaka Kondo
+
 1.12.0 (2025-07-25)
 -------------------
 * chore(autoware_internal_planning_msgs): unifiy module load srv (`#76 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/76>`_)
