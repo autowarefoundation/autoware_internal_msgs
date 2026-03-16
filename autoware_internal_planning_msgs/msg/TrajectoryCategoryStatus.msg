@@ -4,8 +4,7 @@
 byte OK=0
 byte WARN=1
 byte ERROR=2
-byte STALE=3
-byte UNKNOWN=4
+byte UNKNOWN=3
 
 # Name of category.
 string name
