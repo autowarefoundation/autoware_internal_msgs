@@ -13,4 +13,4 @@ string name
 byte level
 
 # Score can be any float value.
-float32 score
+float64 score
