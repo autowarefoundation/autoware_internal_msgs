@@ -6,9 +6,6 @@ byte WARN=1
 byte ERROR=2
 byte UNKNOWN=3
 
-# Unique identifier of trajectory.
-string trajectory_id
-
 # Unique identifier of generator.
 unique_identifier_msgs/UUID generator_id
 
