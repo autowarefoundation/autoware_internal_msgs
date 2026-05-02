@@ -17,6 +17,7 @@
   <exec_depend>rosidl_default_runtime</exec_depend>
 
   <depend>autoware_internal_debug_msgs</depend>
+  <depend>autoware_internal_localization_msgs</depend>
   <depend>autoware_internal_metric_msgs</depend>
   <depend>autoware_internal_perception_msgs</depend>
   <depend>autoware_internal_planning_msgs</depend>
