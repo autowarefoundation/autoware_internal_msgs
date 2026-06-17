@@ -2,6 +2,12 @@
 Changelog for package autoware_internal_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* refactor(autoware_internal_msgs): add USE_SCOPED_HEADER_INSTALL_DIR (`#86 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/86>`_)
+  Co-authored-by: github-actions <github-actions@github.com>
+* Contributors: Vishal Chauhan
+
 1.12.1 (2025-12-22)
 -------------------
 
