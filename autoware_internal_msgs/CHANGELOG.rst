@@ -2,6 +2,13 @@
 Changelog for package autoware_internal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.13.0 (2026-06-17)
+-------------------
+* refactor(autoware_internal_msgs): add USE_SCOPED_HEADER_INSTALL_DIR (`#86 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/86>`_)
+  Co-authored-by: github-actions <github-actions@github.com>
+* chore: make meta-package dependencies to depend from exec_depend (`#84 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/84>`_)
+* Contributors: Taeseung Sohn, Vishal Chauhan
+
 1.12.1 (2025-12-22)
 -------------------
 
