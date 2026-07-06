@@ -45,6 +45,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     autoware_common_msgs
     autoware_perception_msgs
     autoware_planning_msgs
+    autoware_vehicle_msgs
 )
 
 if(BUILD_TESTING)
