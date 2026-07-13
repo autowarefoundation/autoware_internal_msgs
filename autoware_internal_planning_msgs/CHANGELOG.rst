@@ -2,8 +2,8 @@
 Changelog for package autoware_internal_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.14.0 (2026-07-13)
+-------------------
 * feat(autoware_internal_planning_msgs): add turn_indicator field to CandidateTrajectory (`#89 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/89>`_)
   * add turn_indicator field
   * rename turn indicators command field
