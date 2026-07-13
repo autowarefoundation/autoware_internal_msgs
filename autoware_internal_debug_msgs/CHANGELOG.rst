@@ -2,6 +2,9 @@
 Changelog for package autoware_internal_debug_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.13.0 (2026-06-17)
 -------------------
 * refactor(autoware_internal_msgs): add USE_SCOPED_HEADER_INSTALL_DIR (`#86 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/86>`_)
