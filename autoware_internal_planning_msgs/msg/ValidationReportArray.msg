@@ -1,4 +1,5 @@
-# This message represents an array of validation reports for all candidate trajectories.
+# This message represents the validation results of all candidate trajectories.
 
-# Each report contains the validation result for a single trajectory.
+# One report per candidate trajectory, empty if none received (required)
+# e.g. [{generator_name: "MinimumRuleBasedPlanner_Go", risk: {level: 0}}]
 ValidationReport[] reports

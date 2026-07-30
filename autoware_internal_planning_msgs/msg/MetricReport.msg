@@ -1,12 +1,21 @@
-# This message represents a metric report from a trajectory validator.
+# This message represents a metric evaluated by a trajectory validator.
 
-# The name of the validator that generated this report.
+# Validator plugin that evaluated this metric (required)
+# e.g. "safety::UncrossableBoundaryDepartureFilter"
 string validator_name
-# The category of the validator that generated this report.
+
+# Namespace part of validator_name (required)
+# e.g. "safety"
 string validator_category
-# The name of the metric that was reported.
+
+# Metric name, unique within the validator (required)
+# e.g. "check_critical_departure"
 string metric_name
-# The value of the metric that was reported.
+
+# Measured value, unit depends on metric_name (required)
+# e.g. 0.0 (failed check, 1.0 if passed), 16.7 (m/s for "speed")
 float64 metric_value
-# The risk severity of the metric report.
+
+# Risk severity derived from metric_value (required)
+# e.g. 3 (DANGER)
 RiskLevel risk
