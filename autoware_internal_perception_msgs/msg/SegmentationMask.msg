@@ -1,3 +1,9 @@
+# DEPRECATED as of 1.16.0. Do not use this message in new code.
+# It was added in 1.2.0 for the RTMDet instance segmentation effort
+# (autowarefoundation/autoware_universe#7235), which has been abandoned.
+# No Autoware node publishes or subscribes to it. It is kept so that any
+# out-of-tree consumer keeps building, and may be removed in a future major release.
+
 std_msgs/Header header
 
 # It represent map between instance segmentation mask and labels
