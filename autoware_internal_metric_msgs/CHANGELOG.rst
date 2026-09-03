@@ -2,6 +2,9 @@
 Changelog for package autoware_internal_metric_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.15.0 (2026-07-30)
 -------------------
 
