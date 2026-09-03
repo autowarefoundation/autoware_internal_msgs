@@ -2,8 +2,8 @@
 Changelog for package autoware_internal_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.16.0 (2026-09-03)
+-------------------
 * feat(autoware_internal_perception_msgs): deprecate SegmentationMask.msg (`#93 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/93>`_)
   SegmentationMask.msg was added in 1.2.0 (`#29 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/29>`_) for the RTMDet instance
   segmentation effort in autoware_universe. That effort was abandoned:
