@@ -2,6 +2,24 @@
 Changelog for package autoware_internal_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.16.0 (2026-09-03)
+-------------------
+* feat(autoware_internal_perception_msgs): deprecate SegmentationMask.msg (`#93 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/93>`_)
+  SegmentationMask.msg was added in 1.2.0 (`#29 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/29>`_) for the RTMDet instance
+  segmentation effort in autoware_universe. That effort was abandoned:
+  `autowarefoundation/autoware_universe#8165 <https://github.com/autowarefoundation/autoware_universe/issues/8165>`_ was never merged and the parent issue
+  `autowarefoundation/autoware_universe#7235 <https://github.com/autowarefoundation/autoware_universe/issues/7235>`_ is closed as not planned. The one
+  consumer candidate, `autowarefoundation/autoware_universe#9482 <https://github.com/autowarefoundation/autoware_universe/issues/9482>`_, is also closed.
+  Nothing in autoware_universe or autoware_core publishes or subscribes to this
+  message today, so mark it deprecated with a leading comment banner. rosidl has
+  no message-level deprecation annotation, so a comment naming the release is the
+  only available mechanism; this follows ros-controls/control_msgs and
+  ros2/common_interfaces.
+  The message itself is kept. It is the only entry in this package's msg_files,
+  so removing it would mean retiring the whole package, and any out-of-tree
+  consumer should keep building.
+* Contributors: Mete Fatih Cırıt
+
 1.15.0 (2026-07-30)
 -------------------
 

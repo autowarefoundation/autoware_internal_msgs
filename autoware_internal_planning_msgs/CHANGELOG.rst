@@ -2,6 +2,9 @@
 Changelog for package autoware_internal_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.16.0 (2026-09-03)
+-------------------
+
 1.15.0 (2026-07-30)
 -------------------
 * fix: add messages from autoware trajectory validator (`#91 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/91>`_)
