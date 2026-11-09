@@ -10,7 +10,7 @@ set(msg_files
 )
 
 set(msg_dependencies
-  builtin_interfaces
+  geometry_msgs
   std_msgs
 )
 
