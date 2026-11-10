@@ -5,6 +5,7 @@
   <version>1.16.0</version>
   <description>Autoware internal control messages package.</description>
   <maintainer email="hayate.sugahara@tier4.jp">Hayate Sugahara</maintainer>
+  <maintainer email="takumi.odashima@tier4.jp">Takumi Odashima</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
