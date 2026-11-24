@@ -1,4 +1,5 @@
 ### Automatically generated from package.xml ###
+autoware_internal_control_msgs/** hayate.sugahara@tier4.jp takumi.odashima@tier4.jp
 autoware_internal_debug_msgs/** ryohsuke.mitsudome@tier4.jp takayuki.murooka@tier4.jp yukihiro.saito@tier4.jp yutaka.kondo@tier4.jp
 autoware_internal_localization_msgs/** lucas.liu@autoware.org ryohsuke.mitsudome@tier4.jp yamato.ando@tier4.jp
 autoware_internal_metric_msgs/** temkei.kem@tier4.jp
